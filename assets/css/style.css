@@ -1,14 +1,42 @@
 /* #region Debug */
 
+.debug
+{
+    border: 1px dashed black;
+}
+
 /* #endregion Debug */
 
 
 /* #region Common */
 
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* #endregion Common */
 
 
 /* #region Utilities */
+
+:root
+{
+    --primary: #2c3e50FF;
+    --secondary: #1abc9cFF;
+    --footer-secondary: #3a546dFF;
+    --lightest: #ffffffFF;
+    --darkest: #140f0fFF;
+    --dark: #333333FF;
+    --bg-block-1: #ba4b63FF;
+    --bg-block-2: #1ea4b6FF;
+    --bg-block-3: #140f0fFF;
+    --bg-block-4: #1c83c1FF;
+    --bg-block-5: #0e38b5FF;
+    --bg-block-6: #ccb2a3FF;
+}
 
 /* #endregion Utilities */
 
