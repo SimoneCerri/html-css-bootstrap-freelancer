@@ -3,7 +3,8 @@
 .debug
 {
     
-    div
+    .container,
+    .card
     {
         border: 1px dashed black;
         min-height: 70px;
@@ -14,7 +15,13 @@
     {
         .container
         {
-          background-color: #5679e5AC;  
+          background-color: #5679e5AC; 
+          min-height: 100px;
+        }
+
+        .col
+        {
+            min-height: 80px;
         }
         
     }
@@ -27,7 +34,8 @@
         {
           .container
             {
-                background-color: #d65f90A7; 
+                background-color: #d65f90A7;
+                min-height: 400px;
             }  
         }
 
@@ -36,10 +44,12 @@
             .container
             {
                 background-color: #5679e5AC;
+                min-height: 600px;
 
                 .card
                 {
                     background-color: #48dbd6B6;
+                    height: 250px;
                 }
             }
         }
@@ -49,10 +59,12 @@
             .container
             {
                 background-color: #d65f90A7;
+                min-height: 400px;
 
                 .card
                 {
                     background-color: #5375d9AE;
+                    min-height: 200px;
                 }
             }
         }
@@ -62,6 +74,7 @@
             .container
             {
                 background-color: #92d65fA7;
+                min-height: 600px;
             }
         }
     }
@@ -75,11 +88,13 @@
         {
             .container
             {
-               background-color: #5679e5AC; 
+               background-color: #5679e5AC;
+               min-height: 300px;
 
                .card
                {
                 background-color: #b59864AB;
+                min-height: 200px;
                }
             }
             
@@ -106,6 +121,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+img
+{
+    width: 100%;
+    object-fit: cover;
+    width: 200px;
 }
 
 /* #endregion Common */
