@@ -3,11 +3,11 @@
 .debug
 {
     
-    .container,
-    .card
+    [class^=col]
+
     {
         border: 1px dashed black;
-        min-height: 70px;
+        /* min-height: 70px; */
         /* background-color: palegreen; */
     }
 
@@ -21,7 +21,7 @@
 
         .col
         {
-            min-height: 80px;
+            /* min-height: 80px; */
         }
         
     }
@@ -116,11 +116,9 @@
 
 /* #region Common */
 
-*
+a
 {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    text-decoration: none;
 }
 
 img
@@ -129,6 +127,7 @@ img
     object-fit: cover;
     width: 200px;
 }
+/* .img-fluid - Classe Bootstrap da applicare alle immagini responsive */
 
 /* #endregion Common */
 
@@ -153,12 +152,12 @@ img
 
 .cont_80
 {
-    max-width: 80%;
+    width: 80%;
 }
 
 .cont_60
 {
-    max-width: 60%;
+    width: 60%;
 }
 
 /* #endregion Utilities */
