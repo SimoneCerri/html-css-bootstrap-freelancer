@@ -146,7 +146,7 @@
 
 #site_header
 {
-    /* background-color: var(--primary); */
+    background-color: var(--primary);
 }
 
 /* #endregion SiteHeader */
@@ -156,7 +156,18 @@
 
 #site_main
 {
-    /* background-color: var(--lightest); */
+    .jumbo,
+    .about
+    {
+        background-color: var(--secondary);
+    }
+
+    .portfolio,
+    .contact_me
+    {
+        background-color: var(--lightest);
+    }
+
 }
 
 /* #endregion SiteMain */
@@ -166,7 +177,15 @@
 
 #site_footer
 {
-    /* background-color: var(--primary); */
+    .last_info
+    {
+        background-color: var(--footer-secondary);
+    }
+
+    .copyright
+    {
+        background-color: var(--primary);
+    }
 }
 
 /* #endregion SiteFooter */
