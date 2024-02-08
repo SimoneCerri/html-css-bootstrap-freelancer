@@ -17,13 +17,7 @@
         {
           background-color: #5679e5AC; 
           min-height: 100px;
-        }
-
-        .col
-        {
-            /* min-height: 80px; */
-        }
-        
+        }      
     }
 
     #site_main
@@ -116,19 +110,6 @@
 
 /* #region Common */
 
-a
-{
-    text-decoration: none;
-}
-
-img
-{
-    width: 100%;
-    object-fit: cover;
-    width: 200px;
-}
-/* .img-fluid - Classe Bootstrap da applicare alle immagini responsive */
-
 /* #endregion Common */
 
 
@@ -148,16 +129,6 @@ img
     --bg-block-4: #1c83c1FF;
     --bg-block-5: #0e38b5FF;
     --bg-block-6: #ccb2a3FF;
-}
-
-.cont_80
-{
-    width: 80%;
-}
-
-.cont_60
-{
-    width: 60%;
 }
 
 /* #endregion Utilities */
@@ -181,6 +152,11 @@ img
     .about
     {
         background-color: var(--secondary);
+
+        img 
+        {
+            width: 300px;
+        }
     }
 
     .portfolio,
@@ -188,7 +164,6 @@ img
     {
         background-color: var(--lightest);
     }
-
 }
 
 /* #endregion SiteMain */
@@ -201,6 +176,17 @@ img
     .last_info
     {
         background-color: var(--footer-secondary);
+        
+        a 
+        {
+            color: var(--secondary);
+        }
+
+        i 
+        {
+            border: 1px solid var(--lightest);
+            border-radius: 50%;
+        }
     }
 
     .copyright
