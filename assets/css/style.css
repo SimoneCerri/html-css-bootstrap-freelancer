@@ -2,7 +2,13 @@
 
 .debug
 {
-    border: 1px dashed black;
+    
+    div
+    {
+        border: 1px dashed black;
+        min-height: 50px;
+        background-color: red;
+    }
 }
 
 /* #endregion Debug */
@@ -36,6 +42,16 @@
     --bg-block-4: #1c83c1FF;
     --bg-block-5: #0e38b5FF;
     --bg-block-6: #ccb2a3FF;
+}
+
+.cont_80
+{
+    max-width: 80%;
+}
+
+.cont_60
+{
+    max-width: 60%;
 }
 
 /* #endregion Utilities */
