@@ -6,8 +6,93 @@
     div
     {
         border: 1px dashed black;
-        min-height: 50px;
-        background-color: red;
+        min-height: 70px;
+        /* background-color: palegreen; */
+    }
+
+    #site_header
+    {
+        .container
+        {
+          background-color: #5679e5AC;  
+        }
+        
+    }
+
+    #site_main
+    {
+        background-color: #ffffffFF;
+
+        .jumbo
+        {
+          .container
+            {
+                background-color: #d65f90A7; 
+            }  
+        }
+
+        .portfolio
+        {
+            .container
+            {
+                background-color: #5679e5AC;
+
+                .card
+                {
+                    background-color: #48dbd6B6;
+                }
+            }
+        }
+         
+        .about
+        {
+            .container
+            {
+                background-color: #d65f90A7;
+
+                .card
+                {
+                    background-color: #5375d9AE;
+                }
+            }
+        }
+
+        .contact_me
+        {
+            .container
+            {
+                background-color: #92d65fA7;
+            }
+        }
+    }
+        
+
+    #site_footer
+    {
+        /* background-color: #ffffffFF; */
+
+        .last_info
+        {
+            .container
+            {
+               background-color: #5679e5AC; 
+
+               .card
+               {
+                background-color: #b59864AB;
+               }
+            }
+            
+        }
+        .copyright
+        {
+            .container
+            {
+                background-color: #e54741A7;  
+            }
+        }
+        
+        
     }
 }
 
@@ -59,15 +144,30 @@
 
 /* #region SiteHeader */
 
+#site_header
+{
+    /* background-color: var(--primary); */
+}
+
 /* #endregion SiteHeader */
 
 
 /* #region SiteMain */
 
+#site_main
+{
+    /* background-color: var(--lightest); */
+}
+
 /* #endregion SiteMain */
 
 
 /* #region SiteFooter */
+
+#site_footer
+{
+    /* background-color: var(--primary); */
+}
 
 /* #endregion SiteFooter */
 
