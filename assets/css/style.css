@@ -197,7 +197,17 @@
         i 
         {
             border: 1px solid var(--lightest);
-            /* border-radius: 50%; */
+            /* border-radius: 50%;
+            padding: 16px; */
+            /* width: 30px;
+            height: 30px; */
+            /* aspect-ratio: 1; */
+            display: inline-block;
+        }
+
+        .my_padding
+        {
+            padding: 1em 1.2em;
         }
     }
 
