@@ -185,7 +185,7 @@
         i 
         {
             border: 1px solid var(--lightest);
-            border-radius: 50%;
+            /* border-radius: 50%; */
         }
     }
 
