@@ -170,122 +170,11 @@
         background-color: var(--lightest);
     }
 
-    .jumbo
-    {
-        h1 
-        {
-            font-size: 40px;
-            /* overflow: hidden; */
-            /* white-space: nowrap; */
-
-            @media screen and (min-width:576px)
-            {
-                font-size: 50px;
-            }
-
-            @media screen and (min-width:768px)
-            {
-                font-size: 70px;
-            }
-
-            @media screen and (min-width:992px)
-            {
-                font-size: 80px;
-            }
-        }
-
-        h5 
-        {
-            font-size: 20px;
-
-            @media screen and (min-width:576px)
-            {
-                font-size: 30px;
-            }
-
-            @media screen and (min-width:768px)
-            {
-                font-size: 40px;
-            }
-        }
-    
-    }
-
-
-    .portfolio,
-    .contact_me,
-    .about
-    {
-        h1 
-        {
-            font-size: 35px;
-
-            @media screen and (min-width:576px)
-            {
-                font-size: 40px;
-            }
-            
-            @media screen and (min-width:768px)
-            {
-                font-size: 45px;
-            }
-            
-            @media screen and (min-width:992px)
-            {
-                font-size: 55px;
-            }
-        }
-    }
-
     .my_btn
     {
         border: 1px solid var(--lightest);
         border-radius: 5px;
         padding: 0.5em 1em;
-    }
-
-    .view_portfolio
-    {
-        position: relative;
-        width: 50%;
-    }
-    
-    .my_image
-    {
-        opacity: 1;
-        display: block;
-        width: 100%;
-        height: auto;
-        transition: .5s ease;
-        backface-visibility: hidden;
-    }
-    
-    .middle
-    {
-        transition: .5s ease;
-        opacity: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: center;
-    }
-    
-    .view_portfolio:hover .my_image
-    {
-        opacity: 0.3;
-    }
-    
-    .view_portfolio:hover .middle
-    {
-        opacity: 1;
-    }
-    
-    .text
-    {
-        color: var(--lightest);
-        font-size: 3em;
     }
 }
 
@@ -329,5 +218,112 @@
 
 /* #region MediaQuery */
 
+.jumbo
+{
+    h1
+    {
+        font-size: 40px;
+        /* overflow: hidden; */
+        /* white-space: nowrap; */
+
+        @media screen and (min-width:576px)
+        {
+            font-size: 50px;
+        }
+
+        @media screen and (min-width:768px)
+        {
+            font-size: 70px;
+        }
+
+        @media screen and (min-width:992px)
+        {
+            font-size: 80px;
+        }
+    }
+
+    h5
+    {
+        font-size: 20px;
+
+        @media screen and (min-width:576px)
+        {
+            font-size: 30px;
+        }
+
+        @media screen and (min-width:768px)
+        {
+            font-size: 40px;
+        }
+    }
+
+}
+
+
+.portfolio,
+.contact_me,
+.about {
+    h1 {
+        font-size: 35px;
+
+        @media screen and (min-width:576px) {
+            font-size: 40px;
+        }
+
+        @media screen and (min-width:768px) {
+            font-size: 45px;
+        }
+
+        @media screen and (min-width:992px) {
+            font-size: 55px;
+        }
+    }
+}
+
 /* #endregion MediaQuery */
+
+
+/* #region Bonus */
+
+#portfolio
+{
+    .view_portfolio
+    {
+        position: relative;
+    }
+    
+    .my_image
+    {
+        transition: .5s ease;
+    }
+    
+    .middle
+    {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .view_portfolio:hover .my_image
+    {
+        opacity: 0.6;
+    }
+    
+    .view_portfolio:hover .middle
+    {
+        opacity: 1;
+    }
+    
+    .text
+    {
+        color: var(--lightest);
+        font-size: 3em;
+    }
+}
+
+/* #endregion Bonus */
+
 
