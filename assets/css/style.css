@@ -243,6 +243,50 @@
         border-radius: 5px;
         padding: 0.5em 1em;
     }
+
+    .view_portfolio
+    {
+        position: relative;
+        width: 50%;
+    }
+    
+    .my_image
+    {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+    
+    .middle
+    {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .view_portfolio:hover .my_image
+    {
+        opacity: 0.3;
+    }
+    
+    .view_portfolio:hover .middle
+    {
+        opacity: 1;
+    }
+    
+    .text
+    {
+        color: var(--lightest);
+        font-size: 3em;
+    }
 }
 
 /* #endregion SiteMain */
