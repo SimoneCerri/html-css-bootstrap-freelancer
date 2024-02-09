@@ -19,13 +19,13 @@
         <nav class="navbar navbar-expand-lg fw-bolder">
             <div class="container">
                 <a class="navbar-brand text-light fs-3" href="#">START BOOTSTRAP</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler my_nav" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fa-solid fa-bars text-light"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav text-end">
                         <li class="nav-item">
                             <a class="nav-link text-light" aria-current="page" href="#portfolio">PORTFOLIO</a>
                         </li>
@@ -53,7 +53,7 @@
                         </div>
 
                     </div>
-                    <h1 class="text-light fs-1 fw-bolder pt-4">
+                    <h1 class="text-light pt-4">
                         START BOOTSTRAP
                     </h1>
                     <div class="row text-light align-items-center justify-content-center p-4 g-0">
@@ -72,7 +72,7 @@
         </section>
         <!-- /.jumbo -->
 
-        <section class="portfolio text-center">
+        <section id="portfolio" class="portfolio text-center">
             <div class="container py-5">
                 <h1 class="pt-5">
                     PORTFOLIO
@@ -85,32 +85,32 @@
                     <hr class="col-2 border-4 opacity-100 rounded">
                 </div>
                 <div class="row align-items-center g-3">
-                    <div class="col-sm-12 col-md-4 col-md-4 col-xl-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
                         <img src="./assets/img/cabin.png" class="img-fluid rounded" alt="">
                         <!-- /.card -->
                     </div>
                     <!-- /.col -->
-                    <div class="col-sm-12 col-md-4 col-md-4 col-xl-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
                         <img src="./assets/img/circus.png" class="img-fluid rounded" alt="">
                         <!-- /.card -->
                     </div>
                     <!-- /.col -->
-                    <div class="col-sm-12 col-md-4 col-md-4 col-xl-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
                         <img src="./assets/img/game.png" class="img-fluid rounded" alt="">
                         <!-- /.card -->
                     </div>
                     <!-- /.col -->
-                    <div class="col-sm-12 col-md-4 col-md-4 col-xl-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
                         <img src="./assets/img/safe.png" class="img-fluid rounded" alt="">
                         <!-- /.card -->
                     </div>
                     <!-- /.col -->
-                    <div class="col-sm-12 col-md-4 col-md-4 col-xl-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
                         <img src="./assets/img/submarine.png" class="img-fluid rounded" alt="">
                         <!-- /.card -->
                     </div>
                     <!-- /.col -->
-                    <div class="col-sm-12 col-md-4 col-md-4 col-xl-4">
+                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
                         <img src="./assets/img/cabin.png" class="img-fluid rounded" alt="">
                         <!-- /.card -->
                     </div>
@@ -122,7 +122,7 @@
         </section>
         <!-- /.portfolio -->
 
-        <section class="about text-center">
+        <section id="about" class="about text-center">
             <div class="container py-5">
                 <h1 class="text-light">
                     ABOUT
@@ -161,7 +161,7 @@
         </section>
         <!-- /.about -->
 
-        <section class="contact_me text-center">
+        <section id="contact_me" class="contact_me text-center">
             <div class="container py-5">
                 <h1>
                     CONTACT ME
@@ -173,25 +173,25 @@
                     </div>
                     <hr class="col-2 border-4 opacity-100 rounded">
                 </div>
-                <form class="row g-3 text-start align-items-center justify-content-center py-3">
+                <form class="row g-3 text-start align-items-center justify-content-center py-3 fw-bold">
 
                     <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10">
                         <label for="inputName" class="form-label">Name</label>
-                        <input type="email" class="form-control border-0 border-bottom rounded-0" id="inputName">
+                        <input type="email" placeholder="Surname (facoltative)" class="form-control border-0 border-bottom rounded-0" id="inputName">
                     </div>
                     <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10">
                         <label for="inputEmail" class="form-label">Email Address</label>
-                        <input type="email" class="form-control border-0 border-bottom rounded-0" id="inputEmail">
+                        <input type="email" placeholder="Be sure to check your email twice is important" class="form-control border-0 border-bottom rounded-0" id="inputEmail">
                     </div>
                     
                     <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10">
                         <label for="inputPhoneNumber" class="form-label">Phone Number</label>
-                        <input type="text" class="form-control border-0 border-bottom rounded-0" id="inputPhoneNumber">
+                        <input type="text" placeholder="Remeber +( region id ) - number" class="form-control border-0 border-bottom rounded-0" id="inputPhoneNumber">
                     </div>
                     
                     <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10">
                         <label for="inputMessage" class="form-label">Message</label>
-                        <input type="text" class="form-control border-0 border-bottom rounded-0 margin_bottom_try" id="inputMessage">
+                        <textarea name="" class="form-control border-0 border-bottom rounded-0 margin_bottom_try" id="inputMessage" placeholder="Write here what you want, there is a lot of space" rows="7"></textarea>
                     </div>
                     
                     <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10">

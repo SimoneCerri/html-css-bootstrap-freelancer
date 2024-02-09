@@ -139,6 +139,11 @@
 #site_header
 {
     background-color: var(--primary);
+
+    .my_nav
+    {
+        border-color: var(--lightest);
+    }
 }
 
 /* #endregion SiteHeader */
@@ -165,10 +170,61 @@
         background-color: var(--lightest);
     }
 
-    /* .margin_bottom_try
+    .jumbo
     {
-        margin-bottom: 00px;
-    } */
+        h1 
+        {
+            font-size: 40px;
+            /* overflow: hidden; */
+            /* white-space: nowrap; */
+
+            @media screen and (min-width:576px)
+            {
+                font-size: 50px;
+            }
+
+            @media screen and (min-width:768px)
+            {
+                font-size: 70px;
+            }
+
+            @media screen and (min-width:992px)
+            {
+                font-size: 80px;
+            }
+        }
+
+        h5 
+        {
+            font-size: 20px;
+            @media screen and (min-width:576px)
+            {
+                font-size: 30px;
+            }
+
+            @media screen and (min-width:768px)
+            {
+                font-size: 40px;
+            }
+            
+            @media screen and (min-width:992px)
+            {
+                font-size: 50px;
+            }
+        }
+    
+    }
+
+
+    .portfolio,
+    .contact_me,
+    .about
+    {
+        h1 
+        {
+            font-size: 60px;
+        }
+    }
 
     .my_btn
     {
